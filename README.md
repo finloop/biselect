@@ -7,6 +7,8 @@ Umożliwia on znajdowanie miejsca zeowego funkcji w danym przedziale. Opiera si�
 #### Założenia:
 - Funkcja f(x) jest ciągła w podanym przedziale.
 - Funkcja f(x) przyjmuje na krańcach przedziału wartości różnych znaków.
+
+Algorytm wykorzystuje te fakty i dzieli podany przedział na połowę, następnie sprawdza, w którym z tych dwóch przedziałów wartości funkcji dla jego krańców są różnych znaków, ponieważ to w nim znajduje się szukane przez nas miejsce zerowe. Cylk powtarza się aż do uzyskania przez nas odpowiedniej precyzji.
 ### Schemat blokowy
 ![alt text](https://github.com/finloop/biselect/blob/master/Bisekcja.png)
 ### Kod algorytmu
@@ -47,12 +49,19 @@ double bisection_with_precision(double x1, double x2, fun getval)
     printf("Precision: %f \n", fabs(x1-x2));
     return (x1+x2)/2.0;
 }
-
-// Przykładowa funkcja do zbadania
+```
+## Doświadczenie
+### Szukanie miejsc zerowych funkcji sin(x)
+#### Wykres funkcji sin(x)
+![alt text](https://github.com/finloop/biselect/blob/master/sinx.jpg)
+> Wykres funkcji sin(x) wykanany w programie Matlab. 
+#### Funkcja zwracająca wartość sin(x)
+```c
 double bsin(double x){
     return sin(x);
 }
 ```
+### Opis doświadczenia
 
 
 
