@@ -65,8 +65,38 @@ double bsin(double x){
     return sin(x);
 }
 ```
-### Opis doświadczenia
+#### Opis doświadczenia
+Algorytm zostanie uruchomiony dla przedziału [1,5], z precyzją P=0.01 dla funkcji sin(x). Zgodnie z przewidywaniami teoretycznymi liczba iteracji powinna wynosić: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2&space;\frac{|5&space;-&space;1|}{0.01}&space;\approx&space;9).
+#### Kod
+```c
+int main()
+{
+    double x1 = 1.0;
+    double x2 = 5.0;
+    double r = bisection_with_precision(x1,x2 , bsin, 0.01);
+    printf("Done: %f\n", r);
+    return 0;
+}
+```
+#### Wynik
+```console
+  Iteracja  X1        X2        Obecna precyzja Szukana precyzja
+  0         1.000000  5.000000  4.000000        0.010000
+  1         3.000000  5.000000  2.000000        0.010000
+  2         3.000000  4.000000  1.000000        0.010000
+  3         3.000000  3.500000  0.500000        0.010000
+  4         3.000000  3.250000  0.250000        0.010000
+  5         3.125000  3.250000  0.125000        0.010000
+  6         3.125000  3.187500  0.062500        0.010000
+  7         3.125000  3.156250  0.031250        0.010000
+  8         3.140625  3.156250  0.015625        0.010000
+  9         3.140625  3.148438  0.007813        0.010000
+Done: 3.144531
+```
+#### Wykresy
 
+#### Wnioski
+Jak widać algorytm zadziałał prawidłowo, uzyskał odpowiednią precyzję, a ilość jego przejść po pętli zgaza się z wyliczeniami teoretycznymi. 
 
 
 
