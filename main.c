@@ -11,9 +11,9 @@ double bisection_with_precision(double x1, double x2, fun getval, double precisi
 
 int main()
 {
-    double x1 = M_PI_2;
-    double x2 = 13/10*M_PI;
-    double r = bisection_with_precision(x1,x2 , bsin, 0.1);
+    double x1 = 1.0;
+    double x2 = 5.0;
+    double r = bisection_with_precision(x1,x2 , bsin, 0.01);
     printf("Done: %f\n", r);
     return 0;
 }
@@ -33,10 +33,10 @@ double bsin(double x){
 double bisection_with_precision(double x1, double x2, fun getval, double precision)
 {
     // Sprawdzenie czy osiągneliśmy wymaganą precyzję
-    printf("  %-10s%-10s%-10s%-10s\n", "Iteracja", "L", "P", "Precyzja");
+    printf("  %-10s%-10s%-10s%-16s%-15s\n", "Iteracja", "X1", "X2", "Obecna precyzja", "Szukana precyzja");
     int i = 0;
-    printf("  %-10d%-10f%-10f%-10f\n", i, x1, x2, fabs(x1-x2));
-    while(fabs(x1-x2) >= precision)
+    printf("  %-10d%-10f%-10f%-16f%-15f\n", i, x1, x2, fabs(x1-x2), precision);
+    while(fabs(x1-x2) > precision)
     {
         // Obliczenie warości funkcji dla granic i środka przedziału
         double v_x1 = getval(x1);
@@ -56,7 +56,7 @@ double bisection_with_precision(double x1, double x2, fun getval, double precisi
             x2 = s;
         }
         i++;
-        printf("  %-10d%-10f%-10f%-10f\n", i, x1, x2, fabs(x1-x2));
+        printf("  %-10d%-10f%-10f%-16f%-15f\n", i, x1, x2, fabs(x1-x2), precision);
     }
     return (x1+x2)/2.0;
 }
