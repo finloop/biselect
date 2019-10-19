@@ -222,7 +222,7 @@ Done: 49.999977
 ### Podsumowanie
 - Algorytm za w kazdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6).
 - Zgodnie z przewidywaniami teoretycznymi liczba iteracji nie zależy od funkcji której miejsca zerowego szukamy, co potwierdza próba:P2 i P4,
-- Wykres w P6 potwierdza 
+- Wykres w P6 i tutaj coś zmieniłem
 
 
 
