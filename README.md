@@ -54,20 +54,7 @@ double bisection_with_precision(double x1, double x2, fun getval, double precisi
     return (x1+x2)/2.0;
 }
 ```
-## Doświadczenie
-### Szukanie miejsc zerowych funkcji sin(x)
-#### Wykres funkcji sin(x)
-![alt text](https://github.com/finloop/biselect/blob/master/sinx.jpg)
-> Wykres funkcji sin(x) wykanany w programie Matlab. 
-#### Funkcja zwracająca wartość sin(x)
-```c
-double bsin(double x){
-    return sin(x);
-}
-```
-#### Opis doświadczenia
-Algorytm zostanie uruchomiony dla przedziału [1,5], z precyzją P=0.01 dla funkcji sin(x). Zgodnie z przewidywaniami teoretycznymi liczba iteracji powinna wynosić: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2&space;\frac{|5&space;-&space;1|}{0.01}&space;\approx&space;9).
-#### Kod
+#### Przykład owy od uruchamiający algorytm
 ```c
 int main()
 {
@@ -78,7 +65,33 @@ int main()
     return 0;
 }
 ```
-#### Wynik
+## Doświadczenia
+### Wykres funkcji sin(x)
+![alt text](https://github.com/finloop/biselect/blob/master/sinx.jpg)
+> Wykres funkcji sin(x) wykanany w programie Matlab. 
+### Funkcja bsin zwracająca wartość sin(x)
+```c
+double bsin(double x){
+    return sin(x);
+}
+```
+### Funkcja wiel zwracająca wartość wielomianu wiel(x) = 3(x-3)(x-50)(x+50)
+```c
+double wiel(double x){
+    return 3*(x-3)*(x-50)*(x+50);
+}
+```
+### Opis doświadczenia
+Algorytm zostanie uruchomiony kilkukrotnie dla funkcji bsin(x) oraz wiel(x). Będziemy badać liczbę iteracji algorytmu zmieniając przedział i precyzję. Następnie porównamy te wyniki z przewidywaniami teoretycznymi.
+
+#### Próba 1
+##### Warunki początkowe
+- Funkcja bsin(x)
+- Przedział [1.0,5.0]
+- Precyzja 0.01
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2&space;\frac{|5&space;-&space;1|}{0.01}&space;\approx&space;9).
+- Szukane miejsce zerowe w przybliżeniu: 3.14159265359.
+##### Wynik uruchomienia
 ```console
   Iteracja  X1        X2        Obecna precyzja Szukana precyzja
   0         1.000000  5.000000  4.000000        0.010000
@@ -93,9 +106,49 @@ int main()
   9         3.140625  3.148438  0.007813        0.010000
 Done: 3.144531
 ```
-#### Wykresy
-
-#### Wnioski
+#### Próba 2
+##### Warunki początkowe
+- Funkcja bsin(x)
+- Przedział [1.0,3.5]
+- Precyzja 0.01
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2{\frac{|3,5&space;-&space;1|}{0,01}}&space;\approx&space;8).
+- Szukane miejsce zerowe w przybliżeniu: 3.14159265359
+##### Wynik uruchomienia
+```console
+  Iteracja  X1        X2        Obecna precyzja Szukana precyzja
+  0         1.000000  3.500000  2.500000        0.010000
+  1         2.250000  3.500000  1.250000        0.010000
+  2         2.875000  3.500000  0.625000        0.010000
+  3         2.875000  3.187500  0.312500        0.010000
+  4         3.031250  3.187500  0.156250        0.010000
+  5         3.109375  3.187500  0.078125        0.010000
+  6         3.109375  3.148438  0.039063        0.010000
+  7         3.128906  3.148438  0.019531        0.010000
+  8         3.138672  3.148438  0.009766        0.010000
+Done: 3.143555
+```
+#### Próba 3
+##### Warunki początkowe
+- Funkcja bsin(x)
+- Przedział [2.5,5]
+- Precyzja 0.01
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2{\frac{|5&space;-&space;2,5|}{0,01}}&space;\approx&space;8).
+- Szukane miejsce zerowe w przybliżeniu: 3.14159265359
+##### Wynik uruchomienia
+```console
+  Iteracja  X1        X2        Obecna precyzja Szukana precyzja
+  0         2.500000  5.000000  2.500000        0.010000
+  1         2.500000  3.750000  1.250000        0.010000
+  2         3.125000  3.750000  0.625000        0.010000
+  3         3.125000  3.437500  0.312500        0.010000
+  4         3.125000  3.281250  0.156250        0.010000
+  5         3.125000  3.203125  0.078125        0.010000
+  6         3.125000  3.164063  0.039063        0.010000
+  7         3.125000  3.144531  0.019531        0.010000
+  8         3.134766  3.144531  0.009766        0.010000
+Done: 3.139648
+```
+### Wnioski
 Jak widać algorytm zadziałał prawidłowo, uzyskał odpowiednią precyzję, a ilość jego przejść po pętli zgaza się z wyliczeniami teoretycznymi. 
 
 
