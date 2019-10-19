@@ -6,14 +6,15 @@
 typedef double( * fun ) (double);
 
 double bsin(double);
+double wiel(double);
 
 double bisection_with_precision(double x1, double x2, fun getval, double precision);
 
 int main()
 {
-    double x1 = 1.0;
+    double x1 = 2.5;
     double x2 = 5.0;
-    double r = bisection_with_precision(x1,x2 , bsin, 0.01);
+    double r = bisection_with_precision(x1,x2 , sin, 0.01);
     printf("Done: %f\n", r);
     return 0;
 }
@@ -21,6 +22,11 @@ int main()
 // Jedna z funkcji na której może działać algorytm.
 double bsin(double x){
     return sin(x);
+}
+
+// Jedna z funkcji na której może działać algorytm.
+double wiel(double x){
+    return 3*(x-3)*(x-50)*(x+50);
 }
 
 // Algorytm bisekcji.
