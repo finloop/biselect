@@ -148,8 +148,81 @@ Done: 3.143555
   8         3.134766  3.144531  0.009766        0.010000
 Done: 3.139648
 ```
-### Wnioski
-Jak widać algorytm zadziałał prawidłowo, uzyskał odpowiednią precyzję, a ilość jego przejść po pętli zgaza się z wyliczeniami teoretycznymi. 
+#### Próba 4
+##### Warunki początkowe
+- Funkcja wiel(x)
+- Przedział [48.5,51.0]
+- Precyzja 0.01
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2{\frac{|51&space;-&space;48,5|}{0,01}}&space;\approx&space;8).
+- Szukane miejsce zerowe: 50.0
+##### Wynik uruchomienia
+```console
+  Iteracja  X1        X2        Obecna precyzja Szukana precyzja
+  0         48.500000 51.000000 2.500000        0.010000
+  1         49.750000 51.000000 1.250000        0.010000
+  2         49.750000 50.375000 0.625000        0.010000
+  3         49.750000 50.062500 0.312500        0.010000
+  4         49.906250 50.062500 0.156250        0.010000
+  5         49.984375 50.062500 0.078125        0.010000
+  6         49.984375 50.023438 0.039063        0.010000
+  7         49.984375 50.003906 0.019531        0.010000
+  8         49.994141 50.003906 0.009766        0.010000
+Done: 49.999023
+```
+#### Próba 5
+##### Warunki początkowe
+- Funkcja wiel(x)
+- Przedział [48.5,51.0]
+- Precyzja 0.0001
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;\log_2{\frac{|51&space;-&space;48,5|}{0,0001}}&space;\approx&space;15).
+- Szukane miejsce zerowe: 50.0
+##### Wynik uruchomienia
+```console
+  Iteracja  X1        X2        Obecna precyzja Szukana precyzja
+  0         48.500000 51.000000 2.500000        0.000100
+  1         49.750000 51.000000 1.250000        0.000100
+  2         49.750000 50.375000 0.625000        0.000100
+  3         49.750000 50.062500 0.312500        0.000100
+  4         49.906250 50.062500 0.156250        0.000100
+  5         49.984375 50.062500 0.078125        0.000100
+  6         49.984375 50.023438 0.039063        0.000100
+  7         49.984375 50.003906 0.019531        0.000100
+  8         49.994141 50.003906 0.009766        0.000100
+  9         49.999023 50.003906 0.004883        0.000100
+  10        49.999023 50.001465 0.002441        0.000100
+  11        49.999023 50.000244 0.001221        0.000100
+  12        49.999634 50.000244 0.000610        0.000100
+  13        49.999939 50.000244 0.000305        0.000100
+  14        49.999939 50.000092 0.000153        0.000100
+  15        49.999939 50.000015 0.000076        0.000100
+Done: 49.999977
+```
+#### Próba 6
+##### Warunki początkowe
+- Funkcja wiel(x)
+- Przedział [48.5,51.0]
+- Precyzja od 1 do 10^-9,
+- Szukane miejsce zerowe: 50.0
+#### Wyniki uruchomienia
+```console
+ Szukana precyzja    Ilosc iteracji
+  1                      2.000000
+  0.1                    5.000000
+  0.01                   8.000000
+  0.001                  12.000000
+  0.0001                 15.000000
+  1e-005                 18.000000
+  1e-006                 22.000000
+  1e-007                 25.000000
+  1e-008                 28.000000
+  1e-009                 32.000000
+```
+#### Wykres Iteracji od Precyzji(w skali logarytmicznej o podstawie 10)
+![alt text](https://github.com/finloop/biselect/blob/master/Iter.png)
+### Podsumowanie
+- Algorytm za w kazdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6).
+- Zgodnie z przewidywaniami teoretycznymi liczba iteracji nie zależy od funkcji której miejsca zerowego szukamy, co potwierdza próba:P2 i P4,
+- Wykres w P6 potwierdza 
 
 
 
