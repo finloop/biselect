@@ -220,9 +220,10 @@ Done: 49.999977
 #### Wykres Iteracji od Precyzji(w skali logarytmicznej o podstawie 10)
 ![alt text](https://github.com/finloop/biselect/blob/master/Iter.png)
 ### Podsumowanie
-- Algorytm za w kazdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6).
-- Zgodnie z przewidywaniami teoretycznymi liczba iteracji nie zależy od funkcji której miejsca zerowego szukamy, co potwierdza próba:P2 i P4,
-- Wykres w P6 i tutaj coś zmieniłem
+- Algorytm za w każdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6).
+- Algorytm działa dla każdej funkcji, która w danym przedziale ma dokładnie jedno miejsce zerowe.
+- Zgodnie z przewidywaniami teoretycznymi liczba iteracji nie zależy od funkcji której miejsca zerowego szukamy, co potwierdza próba:P2 i P4.
+- Wykres w P6 potwierdza złożoność liniową algorytmu.
 
 
 
