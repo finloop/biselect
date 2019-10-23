@@ -54,7 +54,7 @@ double bisection_with_precision(double x1, double x2, fun getval, double precisi
     return (x1+x2)/2.0;
 }
 ```
-#### Przykład owy od uruchamiający algorytm
+#### Przykład owy kod uruchamiający algorytm
 ```c
 int main()
 {
@@ -66,21 +66,24 @@ int main()
 }
 ```
 ## Doświadczenia
-### Wykres funkcji sin(x)
-![alt text](https://github.com/finloop/biselect/blob/master/sinx.jpg)
-> Wykres funkcji sin(x) wykanany w programie Matlab. 
 ### Funkcja bsin zwracająca wartość sin(x)
 ```c
 double bsin(double x){
     return sin(x);
 }
 ```
+### Wykres funkcji sin(x)
+![alt text](https://github.com/finloop/biselect/blob/master/sinx.jpg)
+> Wykres funkcji sin(x) wykanany w programie Matlab. 
 ### Funkcja wiel zwracająca wartość wielomianu wiel(x) = 3(x-3)(x-50)(x+50)
 ```c
 double wiel(double x){
     return 3*(x-3)*(x-50)*(x+50);
 }
 ```
+### Wykres funkcji wiel(x)
+![alt text](https://github.com/finloop/biselect/blob/master/Wiel.png)
+> Wykres funkcji wiel(x) wykanany w programie Matlab. 
 ### Opis doświadczenia
 Algorytm zostanie uruchomiony kilkukrotnie dla funkcji bsin(x) oraz wiel(x). Będziemy badać liczbę iteracji algorytmu zmieniając przedział i precyzję. Następnie porównamy te wyniki z przewidywaniami teoretycznymi.
 
@@ -201,7 +204,7 @@ Done: 49.999977
 ##### Warunki początkowe
 - Funkcja wiel(x)
 - Przedział [48.5,51.0]
-- Precyzja od 1 do 10^-9,
+- Precyzja od 1 do 10^-9, 
 - Szukane miejsce zerowe: 50.0
 #### Wyniki uruchomienia
 ```console
@@ -217,12 +220,48 @@ Done: 49.999977
   1e-008                 28.000000
   1e-009                 32.000000
 ```
+#### Próba 7
+##### Warunki początkowe
+- Funkcja wiel(x)
+- Przedział [-500,-1]
+- Precyzja 0.0001
+- Teoretyczna liczba iteracji: ![](https://latex.codecogs.com/gif.latex?n&space;=&space;log_2{\frac{|-500&space;-&space;(-1)|}{0,0001}}&space;\approx&space;23).
+- Szukane miejsce zerowe: -50.0
+##### Wynik uruchomienia
+```console
+  Iteracja       L              P              Precyzja
+  0              -500.000000    -1.000000      499.000000
+  1              -250.500000    -1.000000      249.500000
+  2              -125.750000    -1.000000      124.750000
+  3              -63.375000     -1.000000      62.375000
+  4              -63.375000     -32.187500     31.187500
+  5              -63.375000     -47.781250     15.593750
+  6              -55.578125     -47.781250     7.796875
+  7              -51.679688     -47.781250     3.898438
+  8              -51.679688     -49.730469     1.949219
+  9              -50.705078     -49.730469     0.974609
+  10             -50.217773     -49.730469     0.487305
+  11             -50.217773     -49.974121     0.243652
+  12             -50.095947     -49.974121     0.121826
+  13             -50.035034     -49.974121     0.060913
+  14             -50.004578     -49.974121     0.030457
+  15             -50.004578     -49.989349     0.015228
+  16             -50.004578     -49.996964     0.007614
+  17             -50.000771     -49.996964     0.003807
+  18             -50.000771     -49.998867     0.001904
+  19             -50.000771     -49.999819     0.000952
+  20             -50.000295     -49.999819     0.000476
+  21             -50.000057     -49.999819     0.000238
+  22             -50.000057     -49.999938     0.000119
+  23             -50.000057     -49.999997     0.000059
+Done: -50.000027
+```
 #### Wykres Iteracji od Precyzji(w skali logarytmicznej o podstawie 10)
 ![alt text](https://github.com/finloop/biselect/blob/master/Iter.png)
-### Podsumowanie
-- Algorytm za w kazdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6).
+### Podsumowanie i wnioski
+- Algorytm za w kazdym przypadku znalazł miejsce zerowe z podaną dokładnością (P1,P2,P3,P4,P5,P6,P7),
 - Zgodnie z przewidywaniami teoretycznymi liczba iteracji nie zależy od funkcji której miejsca zerowego szukamy, co potwierdza próba:P2 i P4,
-- Wykres w P6 i tutaj coś zmieniłem
+- Algorytm ten ma złożoność O(logn), co ilustrują wykres i próba P6, a także przewidywania teorteyczne.
 
 
 
