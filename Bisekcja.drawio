@@ -1,1 +1,98 @@
-<mxfile host="www.draw.io" modified="2019-10-19T12:17:34.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tB8Ott9sH2TbOxeMbWo0" version="12.1.3" type="device" pages="1"><diagram id="Ao77W_5g9ASH5Vt94X3N" name="Page-1">3VrbcuI4EP0aP5LyHfsxkExmand2U0NqN5mXLWErIBAWK5uA+fqRsHyTHHASc5k8YbVkWerTfdTdQrOGi80dBcvpdxJCrJl6uNGsG800Dd202Q+XpELS161MMqEoFLJSMEJbmL8qpCsUwrg2MCEEJ2hZFwYkimCQ1GSAUrKuD3smuP7VJZhARTAKAFal/6IwmWZSz+yX8q8QTab5lw3Xz3oWIB8sdhJPQUjWFZF1q1lDSkiSPS02Q4i59nK9ZO99eaW3WBiFUdLmha9/uPf/3H4bbPy7ycgYDR/jH//1vGyWF4BXYsNisUmaawCGTCGiSWgyJRMSAXxbSgeUrKIQ8s/orFWO+ZOQJRMaTDiDSZIKdMEqIUw0TRZY9KpbEbuLyYoGcM/6c5MAdAKTfePEQL6ZyheEpu4gWcCEpmwAhRgk6KWOPhBGNCnGFa/eE8TWbOrC4q2+f+V6vus4Rt+0DUuYibB+0/avPNfUixH16bNdiBlLJNlDZYmlaIfvG7A2FKyHW77lJd3CcIuANnQ0b2e6CPJnfxAgjgHShrbmM7PW1zvvw5CCKJghzfqimS5mah+MKXuaJAWUFfOhU7IYr9gOB+spSuBoCXaArhlftDSCF0gTuNmLmug1+3pN3zmJrEvPLdxxWvVaR38d6BoMpc7JeMb5xtQxGENc9Z29INiVDQjQTutrcIOSR/E6f37iz1eOaN1sKl03ad6ImC4ey4G8+VTtK1/btfL3ju/X7mnc2rAlw3Ilg3nFdZWJZAv1nPo8mWKUea4pBWll2JIPiNuvV3ymtORswpb0wprC2t/ANo7CNg9grrADc+ykbp9xQskcDgkmlEkiEnGrf0YYSyKA0SRizYDZFmTyAacJxA7ua9GxQGG4c5km3qm7UQfUY0jAuo5CPXYD85hvJ5526ncV9f9cU21oaQOL07nHDiY9I3kKw2hH8dxIWMyUJmwFabCNCtmE8T0KlJNipXJ9oVXjJHzvSV5pqnxvNPG97L2dad1XtP4XO0sPH5Kfxg0sGRJfheSkfmDYCiSK9i87wm0d4lpdn4UfU7wabv49xijYata16hE9wUUsgZw3Ec2w4ZU1oEzNZaD6vIrmPCxl2SYGJb2RcM5bXI7hGs4KQkvVOQ8RHMvhlvyRAQkwhpiwmRb8PUgRUxt3wHrffdlxivjXNK+cmv+ZDZRoGY7qgP7RHFA9ic7hgEUIWzQqge9xQlirpePmNZKjB7FunZttmXSPnX+qp+NvRsWdM2wzUM65gbIUoL5hEmzTiBOJxLoKp+6YtiHmqbGxQrT6DMZcBSEJQcLi0fOWEeokajkNdQSjqY5gH41F+woknzqdKs6t3AX0M8eR+cRyaP9ZAXB058IAUAP5e7pNlyjeMooBC66FaBwvd9tvYKUmxplVo0SoutOFh3tSkcdqyLUM75Tpr6kWffKDIF6CqKZc9/8Vv/nI1NSLMz2xzECPCF0AXA7ID5ASbYYleBe82VLY1rLVvJKMXzjqju0chr1/StgtlRvVwC4Kr/l1HGc4DOIYBR8vS78/kmsdcld06jSoNJd9MOCTHNmRkXqlKqzePknVl16/XeD41vKy49U+Y+h7VyWNzhf1zmJ0S5NUqw9vN8mubz0Ol3AuyioPWlNbs7Ql++557cyyM2Mwu+Mn4zT85FyUJXjS5QbLSK/aXVy1MCplqo5IyvUl3jlAU8p4cT3fFU+Zafj08+nRZUDcsQRg/n0+8/JrmjPVwo5xndu4zYZSWOO4zithbeOafauu0Mbo4frHgwLZqa+9LCk57pkNBYqjXXw1qso5hx2/3x5PVHF9bzzWFbs0pMwkBLMsz2IpcnHDi0RSJV/55n/8abqPKf8JlA/7vfIo05MvS3pF2lT1I7/htkTGsYUfsWb5X78M4PIvk9btLw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-29T20:21:51.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="4D1Z_bFMc6drpRr2_p4N" version="12.1.8" type="github" pages="1">
+  <diagram id="Ao77W_5g9ASH5Vt94X3N" name="Page-1">
+    <mxGraphModel dx="805" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HK6PVEIBx9GgS1SCXsR_-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.1428571428571" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-1" value="Czy przedział mieści się w tolerancji?&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="10" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <object label="" id="HK6PVEIBx9GgS1SCXsR_-4">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HK6PVEIBx9GgS1SCXsR_-1" target="HK6PVEIBx9GgS1SCXsR_-6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="140" y="160" as="targetPoint"/>
+              <mxPoint x="270" y="85" as="sourcePoint"/>
+              <Array as="points">
+                <mxPoint x="140" y="85"/>
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-5" value="Tak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="65" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-6" value="Zwróć średnią arytmetyczną granic przedziału" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-9" value="Nie&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="190" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="HK6PVEIBx9GgS1SCXsR_-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HK6PVEIBx9GgS1SCXsR_-13" target="HK6PVEIBx9GgS1SCXsR_-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HK6PVEIBx9GgS1SCXsR_-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-13" value="Iloczyn wartości lewej granicy i &lt;br&gt;środka przedziału jest dodatni" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="275" y="350" width="210" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-17" value="Tak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="400" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-20" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="505" y="400" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="G9w1re2MiL95hEOqO_oX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HK6PVEIBx9GgS1SCXsR_-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="10" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="60" y="10"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-24" value="Przypisz&amp;nbsp; lewej granicy przedziału jej środek" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="G9w1re2MiL95hEOqO_oX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HK6PVEIBx9GgS1SCXsR_-25" target="HK6PVEIBx9GgS1SCXsR_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="10"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK6PVEIBx9GgS1SCXsR_-25" value="&lt;span style=&quot;white-space: normal&quot;&gt;Przypisz prawej granicy przedziału jej środek&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="390" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="2ydYZYX6atiGBfikMkj8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2ydYZYX6atiGBfikMkj8-3" target="2ydYZYX6atiGBfikMkj8-4" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2ydYZYX6atiGBfikMkj8-3" value="START" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="G9w1re2MiL95hEOqO_oX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ydYZYX6atiGBfikMkj8-4" target="HK6PVEIBx9GgS1SCXsR_-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2ydYZYX6atiGBfikMkj8-4" value="Podaj: lewą i prawą granicę przedziału, tolerancję" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="275" y="-90" width="210" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="G9w1re2MiL95hEOqO_oX-5" value="&lt;span style=&quot;white-space: normal&quot;&gt;Oblicz:&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;-środek przedziału,&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;-wartości funkcji dla środka i lewej granicy&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;przedziału&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="280" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
